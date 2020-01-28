@@ -20,4 +20,9 @@ public class Library {
             this.capacity -= 1;
         }
     }
+
+    public void removeBook(Book book) {
+        this.catalogue.remove(book);
+    }
+
 }
