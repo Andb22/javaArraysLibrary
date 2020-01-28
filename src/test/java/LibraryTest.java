@@ -12,7 +12,6 @@ public class LibraryTest {
     public void before(){
         library = new Library();
         book = new Book("Dracula", "Brahm Stoker", "Horror");
-
     }
 
     @Test
@@ -28,3 +27,5 @@ public class LibraryTest {
         assertEquals(2, library.getBooks());
     }
 }
+
+

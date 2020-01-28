@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Library {
 
@@ -8,6 +9,10 @@ public class Library {
     public Library (){
         this.catalogue = new ArrayList<>();
         this.capacity = 2;
+    }
+
+    public static void main(String[] args) {
+        HashMap<String, Integer>booksByGenre = new HashMap<String, Integer>();
     }
 
     public int getBooks(){
